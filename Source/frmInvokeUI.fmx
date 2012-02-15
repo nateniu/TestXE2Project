@@ -1,0 +1,85 @@
+object frmTestUI: TfrmTestUI
+  Left = 0
+  Top = 0
+  Caption = 'Test windows'
+  ClientHeight = 400
+  ClientWidth = 600
+  Visible = False
+  StyleLookup = 'backgroundstyle'
+  object btnGetName: TButton
+    Position.Point = '(72,200)'
+    Width = 80.000000000000000000
+    Height = 22.000000000000000000
+    OnClick = btnGetNameClick
+    TabOrder = 0
+    Text = 'GetName'
+  end
+  object edtFirstName: TEdit
+    Position.Point = '(136,56)'
+    Width = 100.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 1
+    KeyboardType = vktDefault
+    Password = False
+  end
+  object edtLastName: TEdit
+    Position.Point = '(136,104)'
+    Width = 100.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 2
+    KeyboardType = vktDefault
+    Password = False
+  end
+  object edtName: TEdit
+    Position.Point = '(136,152)'
+    Width = 193.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 3
+    KeyboardType = vktDefault
+    Password = False
+  end
+  object lblFirstName: TLabel
+    Position.Point = '(72,64)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 4
+    Text = 'FirstName'
+  end
+  object lblLastName: TLabel
+    Position.Point = '(72,112)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 5
+    Text = 'LastName'
+  end
+  object lblName: TLabel
+    Position.Point = '(74,160)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 6
+    Text = 'Name'
+  end
+  object edtDllPath: TEdit
+    Position.Point = '(136,16)'
+    Width = 297.000000000000000000
+    Height = 22.000000000000000000
+    TabOrder = 7
+    KeyboardType = vktDefault
+    Password = False
+  end
+  object lblDllPath: TLabel
+    Position.Point = '(72,24)'
+    Width = 120.000000000000000000
+    Height = 15.000000000000000000
+    TabOrder = 8
+    Text = 'DLL Path'
+  end
+  object btnSelectDll: TButton
+    Position.Point = '(440,16)'
+    Width = 80.000000000000000000
+    Height = 22.000000000000000000
+    OnClick = btnSelectDllClick
+    TabOrder = 9
+    Text = 'Select File'
+  end
+end
