@@ -11,7 +11,7 @@ implementation
     Name: String;
   begin
     Name := String(FirstName) + String(LastName);
-    result := StrToInt(Name);
+    result := StrToIntDef(Name,0);
   end;
 end.
 
